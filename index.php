@@ -1,5 +1,6 @@
 <?php
    include('session.php');
+    include('config.php');
 ?>
 <html lang="en">
 
@@ -178,7 +179,6 @@
                                         </thead>
                                         <tbody>
                                             <?php
-												$conn = mysqli_connect("localhost", "root", "", "assignment2");
 												$sql = "SELECT * FROM personal_data;";
 												$result = mysqli_query($conn, $sql);
 												if (mysqli_num_rows($result) > 0) {
