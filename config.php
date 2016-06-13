@@ -1,7 +1,7 @@
-﻿<?php
-define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'root');
-   define('DB_PASSWORD', '');
+<?php
+define('DB_SERVER', 'serpencob.database.windows.net');
+   define('DB_USERNAME', 'serpencob');
+   define('DB_PASSWORD', '}{eDiN808');
    define('DB_DATABASE', 'assignment2');
    $conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
